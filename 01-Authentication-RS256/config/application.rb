@@ -4,6 +4,7 @@ require_relative 'boot'
 require 'rails'
 
 # Pick the frameworks you want:
+# The only module we use for this tutorial is the action_controller, we can safely remove all others
 require 'active_job/railtie'
 require 'action_controller/railtie'
 require 'action_mailer/railtie'
