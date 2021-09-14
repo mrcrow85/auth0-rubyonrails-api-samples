@@ -1,3 +1,4 @@
+# Ruby 2.3.3 is very outdated and past any security support
 FROM ruby:2.3.3
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
 RUN mkdir /myapp
